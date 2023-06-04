@@ -1,6 +1,6 @@
 # voronoi
 
-This program is the implementation of the paper "Xiao, Yanyang, Cao, Juan, Xu, Shaoping and Chen, Zhonggui. Meshless Power Diagrams. Computers & Graphics, 2023, accept"
+This program is the implementation of the paper "Xiao, Yanyang, Cao, Juan, Xu, Shaoping and Chen, Zhonggui. Meshless Power Diagrams. Computers & Graphics, 2023, (Proc. SMI2023), accept"
 
 ## dependencies
 
