@@ -41,9 +41,6 @@ target_link_libraries(power3-demo OpenMP::OpenMP_CXX)
 include_directories("D:/library/OpenMesh/OpenMesh9/src/")
 link_directories("D:/library/OpenMesh/OpenMesh9/lib/")
 add_definitions(-D_USE_MATH_DEFINES)### OPENMESH
-include_directories("D:/library/OpenMesh/OpenMesh9/src/")
-link_directories("D:/library/OpenMesh/OpenMesh9/lib/")
-add_definitions(-D_USE_MATH_DEFINES)
 
 add_executable(voronois-demo voronois-demo.cpp)
 target_link_libraries(voronois-demo  ${CGAL_LIBRARIES})
