@@ -12,6 +12,8 @@ OpenMesh: http://www.openmesh.org/ (only for loading mesh in the surface case)
 
 Using CMake
 
+(The include and lib path of OpenMesh in the CMakeLists needs to be adjusted manually to fit your system)
+
 ## usage
 
 Once build the code successfully, go to the example/xxx/run-powerx-demo.bat and make sure the path of powerx-demo.exe is correct, then double click the .bat file to run the program, you will obtain 4 result files (powerx-rt.xxx/powerx-rt-omp.xxx/powerx-knn.xxx/powerx-knn-omp.xxx) for each test.
