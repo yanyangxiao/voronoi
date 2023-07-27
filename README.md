@@ -1,6 +1,6 @@
-# voronoi
+# voronoi-power-diagram
 
-This program is the implementation of the paper "Xiao, Yanyang, Cao, Juan, Xu, Shaoping and Chen, Zhonggui. Meshless Power Diagrams. Computers & Graphics, 2023, (Proc. SMI2023), accept"
+This project implements the computations of Voronoi diagrams and power diagrams using the Delaunay/regular triangulation based method and the k-nearest neighbors (knn) based method, respectively, while the knn-based method for the computation of power diagrams is proposed in our paper "Yanyang Xiao, Juan Cao, Shaoping Xu and Zhonggui Chen. Meshless Power Diagrams. Computers & Graphics, 2023, (Proc. SMI), 114: 247-256"
 
 ## dependencies
 
@@ -29,7 +29,8 @@ If you find our code or paper useful, please consider citing
 author = {Xiao, Yanyang and Cao, Juan and Xu, Shaoping and Chen, Zhonggui},
 title = {Meshless Power Diagrams},
 journal = {Computers & Graphics},
-volume = {accept},
+volume = {114},
+pages= {247-256},
 year = {2023}
 }
 ```
